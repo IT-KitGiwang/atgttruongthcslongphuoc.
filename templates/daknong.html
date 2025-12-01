@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Di tích và văn hóa Đăk Nông - Trợ Lý ảo văn hóa song ngữ</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          screens: { 'xs': '480px' },
+          colors: {
+            'sky-light': '#a5f3fc',
+            'sky-medium': '#0ea5e9',
+            'sky-hover': '#0284c7',
+            'accent-pink': '#ec4899',
+            'accent-yellow': '#fbbf24',
+            'bg-soft': '#f0fdfa',
+            'card-bg': '#ffffff',
+          },
+          boxShadow: {
+            'soft': '0 10px 30px rgba(14, 165, 233, 0.15)',
+          },
+        },
+      },
+    }
+  </script>
+</head>
+
+<body class="font-sans antialiased bg-gradient-to-br from-sky-light to-accent-yellow min-h-screen">
+
+  <!-- NAVIGATION -->
+  <nav class="bg-gradient-to-r from-sky-medium to-accent-pink text-white shadow-xl sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center space-x-3">
+          <a href="{{ url_for('index') }}" class="text-xl font-bold tracking-wider">Ứng dụng Văn hóa Đăk Nông</a>
+        </div>
+
+        <div class="hidden lg:flex items-center space-x-3">
+           <a href="{{ url_for('index') }}" class="px-5 py-2 text-sm font-medium hover:bg-white hover:bg-opacity-25 rounded-full transition flex items-center gap-1"><i class="fas fa-robot"></i> Trợ Lý ảo văn hóa song ngữ</a>
+           <a href="{{ url_for('daknong') }}" class="bg-white bg-opacity-25 px-5 py-2 rounded-full font-bold hover:bg-opacity-40 transition flex items-center gap-1"><i class="fas fa-landmark"></i> Di tích Đăk Nông</a>
+           <a href="{{ url_for('admin_login') }}" class="bg-white bg-opacity-25 px-5 py-2 rounded-full font-bold hover:bg-opacity-40 transition flex items-center gap-1">
+             <i class="fas fa-user-shield"></i> Quản Lý
+           </a>
+         </div>
+
+        <button id="mobile-menu-button" class="lg:hidden text-white">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+
+      <div id="mobile-menu" class="lg:hidden hidden bg-gradient-to-b from-sky-medium to-pink-600 rounded-xl mt-2 shadow-lg overflow-hidden">
+         <a href="{{ url_for('index') }}" class="block px-6 py-3 text-sm hover:bg-white hover:bg-opacity-20 flex items-center gap-2"><i class="fas fa-robot"></i> Trợ Lý ảo văn hóa song ngữ</a>
+         <a href="{{ url_for('daknong') }}" class="block px-6 py-3 text-sm hover:bg-white hover:bg-opacity-20 flex items-center gap-2"><i class="fas fa-landmark"></i> Di tích Đăk Nông</a>
+         <a href="{{ url_for('admin_login') }}" class="block px-6 py-3 text-sm hover:bg-white hover:bg-opacity-20 flex items-center gap-2"><i class="fas fa-user-shield"></i> Quản Lý</a>
+       </div>
+    </div>
+  </nav>
+
+  <script>
+    document.getElementById('mobile-menu-button').addEventListener('click', (e) => {
+      e.stopPropagation();
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+    document.addEventListener('click', (e) => {
+      const menu = document.getElementById('mobile-menu');
+      const btn = document.getElementById('mobile-menu-button');
+      if (menu && !menu.contains(e.target) && !btn.contains(e.target)) menu.classList.add('hidden');
+    });
+  </script>
+
+  <!-- MAIN CONTENT -->
+  <main class="py-8 px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="bg-card-bg rounded-3xl shadow-soft p-6 sm:p-10 border-4 border-sky-light">
+
+        <!-- TITLE -->
+        <div class="text-center mb-8">
+          <h1 class="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-sky-medium to-accent-pink bg-clip-text text-transparent">
+            Di tích và văn hóa nổi tiếng tỉnh Đăk Nông
+          </h1>
+          <p class="text-gray-600 mt-2">Khám phá các di tích lịch sử và di sản văn hóa quan trọng của tỉnh Đăk Nông</p>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Hồ Tà Đùng -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://mia.vn/media/uploads/blog-du-lich/ho-ta-dung-10-1689609663.jpg" alt="Hồ Tà Đùng" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Hồ Tà Đùng</h3>
+              <p class="text-gray-600 mb-4">Viên ngọc xanh của Tây Nguyên, hồ nước ngọt lớn nhất khu vực với cảnh quan tuyệt đẹp.</p>
+              <div class="flex gap-2">
+                <a href="{{ url_for('site_detail', site='ho-ta-dung') }}" class="inline-block bg-sky-medium text-white px-4 py-2 rounded-full hover:bg-sky-hover transition">Đọc bài viết</a>
+                <a href="{{ url_for('site_detail', site='ho-ta-dung') }}?lang=en" class="inline-block bg-accent-pink text-white px-4 py-2 rounded-full hover:bg-pink-600 transition">Đọc bằng Song ngữ</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hang động núi lửa Krông Nô -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://vnn-imgs-f.vgcloud.vn/2019/09/27/14/hang-dong-nui-lua-krong-no-duoc-de-cu-cong-vien-di-a-cha-t-toa-n-ca-u.jpg?width=0&s=U3woKIqD4MKbCin9XV0DdA" alt="Hang động núi lửa Krông Nô" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Hang động núi lửa Krông Nô</h3>
+              <p class="text-gray-600 mb-4">Kỳ quan địa chất độc đáo, hang động núi lửa lớn nhất Đông Nam Á với cấu trúc đá bazan ấn tượng.</p>
+              <div class="flex gap-2">
+                <a href="{{ url_for('site_detail', site='hang-dong-nui-lua-krong-no') }}" class="inline-block bg-sky-medium text-white px-4 py-2 rounded-full hover:bg-sky-hover transition">Đọc bài viết</a>
+                <a href="{{ url_for('site_detail', site='hang-dong-nui-lua-krong-no') }}?lang=en" class="inline-block bg-accent-pink text-white px-4 py-2 rounded-full hover:bg-pink-600 transition">Đọc bằng Song ngữ</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Di tích lịch sử N’Trang Lơng -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://cdn2.tuoitre.vn/thumb_w/480/2022/12/20/logo-logo-f5313c1e-76f8-4974-8daf-06b60a04eff7-19921-00002a77f9cced74-16715035922951314190637.jpg" alt="Di tích lịch sử N’Trang Lơng" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Di tích lịch sử N’Trang Lơng</h3>
+              <p class="text-gray-600 mb-4">Chứng nhân của cuộc kháng chiến chống Mỹ, nơi ghi dấu các hoạt động cách mạng quan trọng.</p>
+              <div class="flex gap-2">
+                <a href="{{ url_for('site_detail', site='di-tich-n-trang-long') }}" class="inline-block bg-sky-medium text-white px-4 py-2 rounded-full hover:bg-sky-hover transition">Đọc bài viết</a>
+                <a href="{{ url_for('site_detail', site='di-tich-n-trang-long') }}?lang=en" class="inline-block bg-accent-pink text-white px-4 py-2 rounded-full hover:bg-pink-600 transition">Đọc bằng Song ngữ</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Không gian văn hóa Cồng chiêng Tây Nguyên -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://vwu.vn/documents/20182/3932764/27_Jun_2022_015425_GMTPyang.jpg" alt="Không gian văn hóa Cồng chiêng Tây Nguyên" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Không gian văn hóa Cồng chiêng Tây Nguyên</h3>
+              <p class="text-gray-600 mb-4">Di sản phi vật thể của nhân loại, nghệ thuật cồng chiêng độc đáo của các dân tộc Tây Nguyên.</p>
+              <div class="flex gap-2">
+                <a href="{{ url_for('site_detail', site='khong-gian-cong-chieng') }}" class="inline-block bg-sky-medium text-white px-4 py-2 rounded-full hover:bg-sky-hover transition">Đọc bài viết</a>
+                <a href="{{ url_for('site_detail', site='khong-gian-cong-chieng') }}?lang=en" class="inline-block bg-accent-pink text-white px-4 py-2 rounded-full hover:bg-pink-600 transition">Đọc bằng Song ngữ</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lễ hội truyền thống của người Mạ -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://dantocmiennui-media.baotintuc.vn/images/84426cb421b40f0fbef0009243df48a9f2e06a52a677497f77784b603419ad0a5ce9c37935954a227004d4936ad77ebcaaec2b4361bd921c2900d8e534226f4b/IMGL0512.jpg" alt="Lễ hội truyền thống của người Mạ" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Lễ hội truyền thống của người Mạ</h3>
+              <p class="text-gray-600 mb-4">Nét đẹp văn hóa Tây Nguyên, lễ hội mừng lúa mới và các nghi lễ truyền thống của người Mạ.</p>
+              <div class="flex gap-2">
+                <a href="{{ url_for('site_detail', site='le-hoi-nguoi-ma') }}" class="inline-block bg-sky-medium text-white px-4 py-2 rounded-full hover:bg-sky-hover transition">Đọc bài viết</a>
+                <a href="{{ url_for('site_detail', site='le-hoi-nguoi-ma') }}?lang=en" class="inline-block bg-accent-pink text-white px-4 py-2 rounded-full hover:bg-pink-600 transition">Đọc bằng Song ngữ</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nghề dệt thổ cẩm Ê Đê – M'Nông -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://dantocmiennui-media.baotintuc.vn/images/57c5aab70c5efc5a98d240302ffc6edb6f987fad6e27a995586a0c17e03923dfda99af3cb3695f77930d76b788e51bee6b3a58603e2551456a75a9c9d13e2b0f/050-1.jpg" alt="Nghề dệt thổ cẩm Ê Đê – M'Nông" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Nghề dệt thổ cẩm Ê Đê – M'Nông</h3>
+              <p class="text-gray-600 mb-4">Bảo tồn bản sắc dân tộc, nghệ thuật dệt thổ cẩm tinh xảo của người Ê Đê và M'Nông.</p>
+              <div class="flex gap-2">
+                <a href="{{ url_for('site_detail', site='nghe-det-tho-cam') }}" class="inline-block bg-sky-medium text-white px-4 py-2 rounded-full hover:bg-sky-hover transition">Đọc bài viết</a>
+                <a href="{{ url_for('site_detail', site='nghe-det-tho-cam') }}?lang=en" class="inline-block bg-accent-pink text-white px-4 py-2 rounded-full hover:bg-pink-600 transition">Đọc bằng Song ngữ</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Văn hóa nhà dài – nhà sàn Tây Nguyên -->
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <img src="https://madagui.com.vn/assets/uploads/2016/04/KI%E1%BA%BEN-TR%C3%9AC-T%C3%82Y-NGUY%C3%8AN-7.jpg" alt="Văn hóa nhà dài – nhà sàn Tây Nguyên" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-gray-800 mb-2">Văn hóa nhà dài – nhà sàn Tây Nguyên</h3>
+              <p class="text-gray-600 mb-4">Kiến trúc độc đáo của các dân tộc thiểu số, nhà sàn dài biểu tượng của văn hóa Tây Nguyên.</p>
+              <div class="flex gap-2">
+                <a href="{{ url_for('site_detail', site='van-hoa-nha-dai') }}" class="inline-block bg-sky-medium text-white px-4 py-2 rounded-full hover:bg-sky-hover transition">Đọc bài viết</a>
+                <a href="{{ url_for('site_detail', site='van-hoa-nha-dai') }}?lang=en" class="inline-block bg-accent-pink text-white px-4 py-2 rounded-full hover:bg-pink-600 transition">Đọc bằng Song ngữ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BACK BUTTON -->
+        <div class="text-center mt-8">
+          <a href="{{ url_for('index') }}" class="bg-gradient-to-r from-sky-medium to-accent-pink hover:from-sky-hover hover:to-pink-600 text-white font-bold px-8 py-3 rounded-full inline-flex items-center gap-2 shadow-lg transform hover:scale-105 transition">
+            <i class="fas fa-arrow-left"></i> Quay lại trang chủ
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
