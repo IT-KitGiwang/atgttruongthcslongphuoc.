@@ -130,12 +130,12 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
         <div class="flex items-center space-x-3">
-          <a href="#" class="text-xl font-bold tracking-wider">Ứng dụng Văn hóa Đăk Nông</a>
+          <a href="#" class="text-xl font-bold tracking-wider">Ứng dụng Văn hóa Tây Nguyên - Lâm Đồng</a>
         </div>
 
         <div class="hidden lg:flex items-center space-x-3">
            <a href="#" class="px-5 py-2 text-sm font-medium hover:bg-white hover:bg-opacity-25 rounded-full transition flex items-center gap-1"><i class="fas fa-robot"></i> Trợ Lý ảo văn hóa song ngữ</a>
-           <a href="{{ url_for('daknong') }}" class="px-5 py-2 text-sm font-medium hover:bg-white hover:bg-opacity-25 rounded-full transition flex items-center gap-1"><i class="fas fa-landmark"></i> Di tích Đăk Nông</a>
+           <a href="{{ url_for('daknong') }}" class="px-5 py-2 text-sm font-medium hover:bg-white hover:bg-opacity-25 rounded-full transition flex items-center gap-1"><i class="fas fa-landmark"></i> Di tích Tây Nguyên - Lâm Đồng</a>
            <a href="{{ url_for('admin_login') }}" class="bg-white bg-opacity-25 px-5 py-2 rounded-full font-bold hover:bg-opacity-40 transition flex items-center gap-1">
              <i class="fas fa-user-shield"></i> Quản Lý
            </a>
@@ -148,7 +148,7 @@
 
       <div id="mobile-menu" class="lg:hidden hidden bg-gradient-to-b from-sky-medium to-pink-600 rounded-xl mt-2 shadow-lg overflow-hidden">
          <a href="#" class="block px-6 py-3 text-sm hover:bg-white hover:bg-opacity-20 flex items-center gap-2"><i class="fas fa-robot"></i> Trợ Lý ảo văn hóa song ngữ</a>
-         <a href="{{ url_for('daknong') }}" class="block px-6 py-3 text-sm hover:bg-white hover:bg-opacity-20 flex items-center gap-2"><i class="fas fa-landmark"></i> Di tích Đăk Nông</a>
+         <a href="{{ url_for('daknong') }}" class="block px-6 py-3 text-sm hover:bg-white hover:bg-opacity-20 flex items-center gap-2"><i class="fas fa-landmark"></i> Di tích Tây Nguyên - Lâm Đồng</a>
          <a href="{{ url_for('admin_login') }}" class="block px-6 py-3 text-sm hover:bg-white hover:bg-opacity-20 flex items-center gap-2"><i class="fas fa-user-shield"></i> Quản Lý</a>
        </div>
     </div>
@@ -178,20 +178,23 @@
 
       <!-- Chat Messages -->
       <div id="chat-messages" class="flex flex-col gap-5">
-        <div class="ai-message chat-bubble p-6 max-w-[82%] self-start text-base leading-relaxed">
-          <strong class="text-xl text-sky-medium">Chào các em!</strong><br>
-          Mình là <span class="font-bold text-accent-pink">AI Hỗ Trợ Học Lịch Sử</span> đây!<br><br>
-          Hỏi mình về văn hóa, di tích lịch sử Đăk Nông...<br>
-          Mình sẽ giải thích và cung cấp thông tin chi tiết!<br><br>
+  <div class="ai-message chat-bubble p-6 max-w-[82%] self-start text-base leading-relaxed">
+    <strong class="text-xl text-sky-medium">Xin chào các bạn thân mến!</strong><br>
+    Tôi là <span class="font-bold text-accent-pink">TRỢ LÝ ẢO SONG NGỮ – KHÁM PHÁ VĂN HÓA & LỊCH SỬ TÂY NGUYÊN - LÂM ĐỒNG</span>.<br><br>
+    Hãy đặt câu hỏi về văn hóa, di tích lịch sử Tây Nguyên - Lâm Đồng...<br>
+    Tôi sẽ mang đến cho bạn những thông tin thú vị, chi tiết và đồng thời giúp bạn rèn luyện tiếng Anh qua hành trình khám phá văn hóa – lịch sử của vùng đất này!<br><br>
 
-          <strong class="text-accent-yellow">Hello!</strong><br>
-          Ask me about culture and historical sites in Đăk Nông!
-        </div>
-      </div>
+    <strong class="text-accent-yellow">Welcome, friends!</strong><br>
+    I am your <span class="font-bold text-accent-pink">Bilingual Virtual Assistant – Discovering the Culture & History of Tây Nguyên - Lâm Đồng</span>.<br><br>
+    Ask me anything about Tây Nguyên - Lâm Đồng’s traditions, heritage, and historical sites.<br>
+    I’ll provide engaging insights while helping you improve your English through the rich stories of this land!
+  </div>
+</div>
+
 
       <!-- Input Form -->
       <form id="chat-form" class="flex flex-col sm:flex-row gap-4 mt-8">
-        <input type="text" id="message" placeholder="Hỏi về văn hóa, di tích Đăk Nông..."
+        <input type="text" id="message" placeholder="Hỏi về văn hóa, di tích Tây Nguyên - Lâm Đồng..."
           class="flex-1 px-6 py-4 rounded-full border-3 border-sky-light focus:border-sky-medium focus:ring-4 focus:ring-sky-light outline-none text-lg shadow-inner transition">
         <button type="submit"
           class="bg-gradient-to-r from-sky-medium to-accent-pink hover:from-sky-hover hover:to-pink-600 text-white font-bold px-8 py-4 rounded-full flex items-center justify-center gap-2 shadow-lg transform hover:scale-105 transition">

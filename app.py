@@ -171,7 +171,7 @@ def site_detail(site):
             'content_vi': '''
             <p><strong>Hồ Tà Đùng - "Viêm ngọc xanh" của Tây Nguyên</strong></p>
 
-            <p>Nằm ẩn mình giữa những cánh đồng lúa xanh mướt và đồi núi hùng vĩ của huyện Đăk Glong, tỉnh Đăk Nông, hồ Tà Đùng như một viên ngọc xanh quý giá được thiên nhiên ban tặng. Với diện tích mặt nước lên đến 2.500 ha, hồ không chỉ là nguồn sống mà còn là biểu tượng của sự hài hòa giữa con người và thiên nhiên ở vùng đất Tây Nguyên.</p>
+            <p>Nằm ẩn mình giữa những cánh đồng lúa xanh mướt và đồi núi hùng vĩ của huyện Đăk Glong, tỉnh Lâm Đồng, hồ Tà Đùng như một viên ngọc xanh quý giá được thiên nhiên ban tặng. Với diện tích mặt nước lên đến 2.500 ha, hồ không chỉ là nguồn sống mà còn là biểu tượng của sự hài hòa giữa con người và thiên nhiên ở vùng đất Tây Nguyên.</p>
 
             <h2>Lịch sử hình thành và nguồn gốc địa chất</h2>
             <p>Hồ Tà Đùng được hình thành từ hoạt động phun trào của núi lửa cách đây khoảng 2-3 triệu năm trong kỷ Đệ Tứ. Đây là kết quả của quá trình kiến tạo địa chất phức tạp, khi dung nham nguội đi tạo thành các cấu trúc đá bazan đặc trưng. Theo các nhà địa chất học, hồ nằm trên một miệng núi lửa cổ xưa, nơi dung nham đã bị nước mưa và sông suối xói mòn qua hàng triệu năm, tạo nên lòng chảo tự nhiên rộng lớn.</p>
@@ -184,7 +184,7 @@ def site_detail(site):
             <h2>Hệ sinh thái đa dạng và giá trị bảo tồn</h2>
             <p>Hồ Tà Đùng là một trong những hệ sinh thái nước ngọt quan trọng nhất của Tây Nguyên. Hồ là nơi sinh sống của hơn 200 loài thực vật thủy sinh, 50 loài cá nước ngọt, và hàng chục loài chim di trú. Đặc biệt, hồ là môi trường sống của các loài cá quý hiếm như cá lăng nha, cá mè, và cá trắm cỏ.</p>
 
-            <p>Theo báo cáo của Sở Khoa học và Công nghệ tỉnh Đăk Nông, hồ Tà Đùng còn là nơi cư trú của ít nhất 15 loài chim nước quý hiếm, bao gồm cò, vạc, và các loài chim di trú từ vùng Siberia. Mỗi năm, vào mùa khô (tháng 12-4), hồ trở thành điểm dừng chân quan trọng cho hàng nghìn con chim di trú từ phương Bắc.</p>
+            <p>Theo báo cáo của Sở Khoa học và Công nghệ tỉnh Lâm Đồng, hồ Tà Đùng còn là nơi cư trú của ít nhất 15 loài chim nước quý hiếm, bao gồm cò, vạc, và các loài chim di trú từ vùng Siberia. Mỗi năm, vào mùa khô (tháng 12-4), hồ trở thành điểm dừng chân quan trọng cho hàng nghìn con chim di trú từ phương Bắc.</p>
 
             <img src="https://dulichvietnam.com.vn/kinh-nghiem/wp-content/uploads/2019/10/kinh-nghiem-du-lich-ta-dung-1.jpg" alt="Cảnh quan xung quanh hồ Tà Đùng" style="max-width: 500px; height: auto; display: block; margin: 20px auto;">
             <p style="text-align: center; font-style: italic;">Những cánh đồng lúa xanh mướt bao quanh hồ, tạo nên khung cảnh yên bình và thơ mộng.</p>
@@ -192,14 +192,14 @@ def site_detail(site):
             <h2>Ý nghĩa kinh tế - xã hội và văn hóa</h2>
             <p>Hồ Tà Đùng không chỉ là "lá phổi xanh" của vùng Tây Nguyên mà còn đóng vai trò quan trọng trong đời sống kinh tế - xã hội của người dân địa phương. Hồ cung cấp nước tưới cho hơn 3.000 ha đất nông nghiệp, chủ yếu là lúa và cà phê của các huyện Đăk Glong, Krông Nô và Đăk Mil.</p>
 
-            <p>Theo số liệu từ UBND tỉnh Đăk Nông, hồ Tà Đùng cung cấp nước cho hệ thống thủy lợi phục vụ sản xuất nông nghiệp với sản lượng lương thực đạt 25.000-30.000 tấn/năm. Bên cạnh đó, hồ còn là nguồn thu nhập quan trọng từ du lịch và nuôi trồng thủy sản.</p>
+            <p>Theo số liệu từ UBND tỉnh Lâm Đồng, hồ Tà Đùng cung cấp nước cho hệ thống thủy lợi phục vụ sản xuất nông nghiệp với sản lượng lương thực đạt 25.000-30.000 tấn/năm. Bên cạnh đó, hồ còn là nguồn thu nhập quan trọng từ du lịch và nuôi trồng thủy sản.</p>
 
             <p>Về mặt văn hóa, hồ Tà Đùng gắn liền với đời sống của các dân tộc thiểu số Ê Đê, M'Nông và Gia Rai. Người dân địa phương vẫn lưu giữ nhiều truyền thuyết về hồ, trong đó có câu chuyện về "bà mẹ hồ" - một vị thần bảo vệ nguồn nước và mang lại sự sung túc cho cộng đồng.</p>
 
             <h2>Du lịch và phát triển bền vững</h2>
             <p>Mỗi năm, hồ Tà Đùng thu hút hàng chục nghìn du khách trong và ngoài nước. Các hoạt động du lịch chủ yếu tập trung vào tham quan cảnh quan, câu cá giải trí, và trải nghiệm văn hóa bản địa. Đặc biệt, vào dịp lễ hội Ok Om Bok (lễ hội mừng lúa mới) của người Ê Đê, hồ trở thành điểm nhấn văn hóa quan trọng.</p>
 
-            <p>Tuy nhiên, du lịch cũng đặt ra thách thức lớn cho công tác bảo tồn. Theo báo cáo của Bộ Tài nguyên và Môi trường, hồ Tà Đùng đang đối mặt với nguy cơ ô nhiễm từ hoạt động nông nghiệp và du lịch không kiểm soát. Để giải quyết vấn đề này, tỉnh Đăk Nông đã triển khai nhiều dự án bảo tồn như:</p>
+            <p>Tuy nhiên, du lịch cũng đặt ra thách thức lớn cho công tác bảo tồn. Theo báo cáo của Bộ Tài nguyên và Môi trường, hồ Tà Đùng đang đối mặt với nguy cơ ô nhiễm từ hoạt động nông nghiệp và du lịch không kiểm soát. Để giải quyết vấn đề này, tỉnh Lâm Đồng đã triển khai nhiều dự án bảo tồn như:</p>
 
             <ul>
                 <li>Xây dựng hệ thống xử lý nước thải xung quanh hồ</li>
@@ -214,7 +214,7 @@ def site_detail(site):
             <p>Đối với học sinh và sinh viên, hồ Tà Đùng là điểm đến lý tưởng để học tập thực tế về địa lý, sinh học và bảo tồn môi trường. Nhiều trường THPT và Đại học trong khu vực đã đưa hồ vào chương trình ngoại khóa, giúp thế hệ trẻ hiểu rõ hơn về giá trị của tài nguyên thiên nhiên.</p>
 
             <h2>Tương lai và tầm nhìn</h2>
-            <p>Với tầm quan trọng chiến lược về kinh tế, văn hóa và sinh thái, hồ Tà Đùng đang được định hướng phát triển thành khu du lịch sinh thái quốc gia. Theo quy hoạch của tỉnh Đăk Nông đến năm 2030, hồ sẽ trở thành điểm nhấn của "Hành lang du lịch Tây Nguyên" với các sản phẩm du lịch đặc trưng như:</p>
+            <p>Với tầm quan trọng chiến lược về kinh tế, văn hóa và sinh thái, hồ Tà Đùng đang được định hướng phát triển thành khu du lịch sinh thái quốc gia. Theo quy hoạch của tỉnh Lâm Đồng đến năm 2030, hồ sẽ trở thành điểm nhấn của "Hành lang du lịch Tây Nguyên" với các sản phẩm du lịch đặc trưng như:</p>
 
             <ul>
                 <li>Du lịch sinh thái và trải nghiệm bản địa</li>
@@ -284,13 +284,13 @@ def site_detail(site):
             '''
         },
         'hang-dong-nui-lua-krong-no': {
-            'title': 'Hang động núi lửa Krông Nô - Kỳ quan địa chất độc đáo của Đăk Nông',
-            'title_en': 'Krông Nô Volcanic Cave - Unique Geological Wonder of Dak Nong',
+            'title': 'Hang động núi lửa Krông Nô - Kỳ quan địa chất độc đáo của Lâm Đồng',
+            'title_en': 'Krông Nô Volcanic Cave - Unique Geological Wonder of Lam Dong',
             'image': 'https://vnn-imgs-f.vgcloud.vn/2019/09/27/14/hang-dong-nui-lua-krong-no-duoc-de-cu-cong-vien-di-a-cha-t-toa-n-ca-u.jpg?width=0&s=U3woKIqD4MKbCin9XV0DdA',
             'content_vi': '''
             <p><strong>Hang động núi lửa Krông Nô - Kỳ quan địa chất sống của Tây Nguyên</strong></p>
 
-            <p>Tọa lạc tại xã Nam Đà, huyện Krông Nô, tỉnh Đăk Nông, hang động núi lửa Krông Nô là một trong những hang động núi lửa lớn nhất và ấn tượng nhất Đông Nam Á. Với chiều dài hơn 2km và cấu trúc địa chất độc đáo, hang động như một bảo tàng sống về lịch sử địa chất của vùng đất Tây Nguyên, thu hút sự chú ý của các nhà khoa học và du khách từ khắp nơi trên thế giới.</p>
+            <p>Tọa lạc tại xã Nam Đà, huyện Krông Nô, tỉnh Lâm Đồng, hang động núi lửa Krông Nô là một trong những hang động núi lửa lớn nhất và ấn tượng nhất Đông Nam Á. Với chiều dài hơn 2km và cấu trúc địa chất độc đáo, hang động như một bảo tàng sống về lịch sử địa chất của vùng đất Tây Nguyên, thu hút sự chú ý của các nhà khoa học và du khách từ khắp nơi trên thế giới.</p>
 
             <h2>Lịch sử hình thành và quá trình địa chất</h2>
             <p>Hang động Krông Nô được hình thành từ hoạt động phun trào núi lửa mạnh mẽ cách đây khoảng 2-3 triệu năm trong kỷ Đệ Tứ. Khi dung nham nóng chảy phun trào từ lòng đất, tiếp xúc với không khí lạnh đã tạo ra lớp vỏ ngoài nguội nhanh, hình thành các đường ống dung nham (lava tubes) dài hàng kilomet.</p>
@@ -361,7 +361,7 @@ def site_detail(site):
                 <li>Trải nghiệm văn hóa bản địa xung quanh hang động</li>
             </ul>
 
-            <p>Tuy nhiên, để bảo tồn giá trị khoa học và cảnh quan, tỉnh Đăk Nông đã áp dụng các biện pháp quản lý nghiêm ngặt:</p>
+            <p>Tuy nhiên, để bảo tồn giá trị khoa học và cảnh quan, tỉnh Lâm Đồng đã áp dụng các biện pháp quản lý nghiêm ngặt:</p>
 
             <ul>
                 <li>Giới hạn số lượng du khách (tối đa 500 người/ngày)</li>
@@ -469,7 +469,7 @@ def site_detail(site):
             'title_en': 'N\'Trang Long Historical Site - Witness to the Anti-American Resistance War',
             'image': 'https://cdn2.tuoitre.vn/thumb_w/480/2022/12/20/logo-logo-f5313c1e-76f8-4974-8daf-06b60a04eff7-19921-00002a77f9cced74-16715035922951314190637.jpg',
             'content_vi': '''
-            <p>Di tích lịch sử N'Trang Lơng, nằm tại huyện Krông Nô, tỉnh Đăk Nông, là một trong những điểm nhấn quan trọng ghi dấu cuộc kháng chiến chống Mỹ cứu nước của dân tộc.</p>
+            <p>Di tích lịch sử N'Trang Lơng, nằm tại huyện Krông Nô, tỉnh Lâm Đồng, là một trong những điểm nhấn quan trọng ghi dấu cuộc kháng chiến chống Mỹ cứu nước của dân tộc.</p>
 
             <h2>Lịch sử cách mạng</h2>
             <p>Vào những năm 1960-1970, N'Trang Lơng là căn cứ địa cách mạng quan trọng. Đây là nơi tập kết lực lượng, chuẩn bị vũ khí và tổ chức các hoạt động chống lại quân đội Mỹ và đồng minh.</p>
@@ -563,7 +563,7 @@ def site_detail(site):
             'title_en': 'Traditional Festivals of the Ma People - Cultural Beauty of the Central Highlands',
             'image': 'https://dantocmiennui-media.baotintuc.vn/images/84426cb421b40f0fbef0009243df48a9f2e06a52a677497f77784b603419ad0a5ce9c37935954a227004d4936ad77ebcaaec2b4361bd921c2900d8e534226f4b/IMGL0512.jpg',
             'content_vi': '''
-            <p>Lễ hội truyền thống của người Mạ là một phần không thể thiếu trong đời sống văn hóa của dân tộc Mạ tại tỉnh Đăk Nông, phản ánh tín ngưỡng, phong tục và bản sắc dân tộc.</p>
+            <p>Lễ hội truyền thống của người Mạ là một phần không thể thiếu trong đời sống văn hóa của dân tộc Mạ tại tỉnh Lâm Đồng, phản ánh tín ngưỡng, phong tục và bản sắc dân tộc.</p>
 
             <h2>Các loại lễ hội</h2>
             <p>Người Mạ có nhiều lễ hội truyền thống như lễ mừng lúa mới, lễ cưới hỏi, lễ tang ma và các lễ cầu mưa, cầu mùa. Mỗi lễ hội đều có ý nghĩa sâu sắc và được tổ chức trang trọng.</p>
@@ -584,7 +584,7 @@ def site_detail(site):
             <p>Lễ hội không chỉ là dịp vui chơi mà còn là nơi giáo dục truyền thống, gắn kết cộng đồng và bảo tồn bản sắc dân tộc.</p>
 
             <h2>Bảo tồn và phát triển</h2>
-            <p>Với sự phát triển của xã hội, các lễ hội truyền thống đang được bảo tồn và phát triển, trở thành điểm nhấn văn hóa của tỉnh Đăk Nông.</p>
+            <p>Với sự phát triển của xã hội, các lễ hội truyền thống đang được bảo tồn và phát triển, trở thành điểm nhấn văn hóa của tỉnh Lâm Đồng.</p>
             ''',
             'content_en': '''
             <p>Traditional festivals of the Ma people are an indispensable part of the cultural life of the Ma ethnic group in Dak Nong Province, reflecting beliefs, customs, and national identity.</p>
@@ -741,15 +741,16 @@ def chat():
     Lịch sử nhắn tin để theo dõi và trả lời:
     {recent}
 
-Bạn là Trợ Lý ảo văn hóa song ngữ hỗ trợ văn hóa - di tích lịch sử Đăk Nông.
-Nhiệm vụ của bạn là hỗ trợ người dùng tìm hiểu về văn hóa và di tích lịch sử tỉnh Đăk Nông.
-Bạn trả lời dựa trên tài liệu RAG và kiến thức về văn hóa, lịch sử Đăk Nông.
+Bạn là Trợ Lý ảo văn hóa song ngữ hỗ trợ văn hóa - di tích lịch sử Tây Nguyên - Lâm Đồng, chuyên dành cho học sinh học tiếng Anh.
+Nhiệm vụ của bạn là hỗ trợ người dùng tìm hiểu về văn hóa và di tích lịch sử các tỉnh Tây Nguyên (bao gồm Đăk Nông cũ và Lâm Đồng) bằng cách cung cấp thông tin song ngữ (tiếng Việt và tiếng Anh) theo từng đoạn ngắn.
+Bạn trả lời dựa trên tài liệu RAG và kiến thức về văn hóa, lịch sử Tây Nguyên - Lâm Đồng.
 Yêu cầu trả lời:
-- Trả lời các câu hỏi về văn hóa, di tích lịch sử Đăk Nông dựa trên RAG và kiến thức internet.
+- Cấu trúc phản hồi theo từng đoạn ngắn: Mỗi đoạn gồm 1-2 câu tiếng Việt, theo sau là bản dịch tiếng Anh chính xác và tự nhiên.
+- Sử dụng ngôn ngữ đơn giản, phù hợp cho học sinh học tiếng Anh, giải thích từ vựng khó nếu cần.
 - Sử dụng <strong>, <em>, • cho định dạng.
-- Thân thiện, khuyến khích khám phá văn hóa địa phương.
+- Thân thiện, khuyến khích khám phá văn hóa địa phương và học tiếng Anh.
 - Giữ phản hồi ngắn gọn, dưới 500 từ.
-- Luôn kèm "Thông tin này chỉ mang tính tham khảo!" in đậm.
+- Luôn kèm "Thông tin này chỉ mang tính tham khảo!" in đậm ở cuối.
 
 Câu hỏi: {msg}
 
