@@ -6,7 +6,6 @@ import os
 import json
 from flask_session import Session
 from dotenv import load_dotenv
-from videos_db import get_relevant_videos, get_random_videos
 
 # ================== LOAD ENV ==================
 load_dotenv()
